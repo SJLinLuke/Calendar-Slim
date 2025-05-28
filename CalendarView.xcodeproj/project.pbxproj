@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402B43A32D7B1EFA00463279 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B43A22D7B1EFA00463279 /* CalendarView.swift */; };
+		402B43A52D7B1F0500463279 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B43A42D7B1F0500463279 /* CalendarViewModel.swift */; };
+		407498622DC619CD002FA444 /* CalendarDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407498612DC619CD002FA444 /* CalendarDemoView.swift */; };
+		40D4D5562DC3220A00A7275D /* CalendarTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4D5552DC3220A00A7275D /* CalendarTheme.swift */; };
+		40D4D5592DC322A600A7275D /* CalendarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4D5582DC322A600A7275D /* CalendarConfiguration.swift */; };
+		40D4D55C2DC3256A00A7275D /* YearMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4D55B2DC3256A00A7275D /* YearMonth.swift */; };
+		40D4D55E2DC3279800A7275D /* WeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4D55D2DC3279800A7275D /* WeekDaysView.swift */; };
+		40D4D5602DC3572E00A7275D /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4D55F2DC3572E00A7275D /* DateView.swift */; };
 		F41669292D7AEF2200D5A6C3 /* CalendarViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41669282D7AEF2200D5A6C3 /* CalendarViewApp.swift */; };
-		F416692B2D7AEF2200D5A6C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F416692A2D7AEF2200D5A6C3 /* ContentView.swift */; };
 		F416692D2D7AEF2500D5A6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F416692C2D7AEF2500D5A6C3 /* Assets.xcassets */; };
 		F41669312D7AEF2500D5A6C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41669302D7AEF2500D5A6C3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402B43A22D7B1EFA00463279 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		402B43A42D7B1F0500463279 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		407498612DC619CD002FA444 /* CalendarDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDemoView.swift; sourceTree = "<group>"; };
+		40D4D5552DC3220A00A7275D /* CalendarTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTheme.swift; sourceTree = "<group>"; };
+		40D4D5582DC322A600A7275D /* CalendarConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarConfiguration.swift; sourceTree = "<group>"; };
+		40D4D55B2DC3256A00A7275D /* YearMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonth.swift; sourceTree = "<group>"; };
+		40D4D55D2DC3279800A7275D /* WeekDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDaysView.swift; sourceTree = "<group>"; };
+		40D4D55F2DC3572E00A7275D /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		F41669252D7AEF2200D5A6C3 /* CalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41669282D7AEF2200D5A6C3 /* CalendarViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewApp.swift; sourceTree = "<group>"; };
-		F416692A2D7AEF2200D5A6C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F416692C2D7AEF2500D5A6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F416692E2D7AEF2500D5A6C3 /* CalendarView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalendarView.entitlements; sourceTree = "<group>"; };
 		F41669302D7AEF2500D5A6C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,6 +47,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40D4D5512DC3179300A7275D /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				40D4D5572DC3229300A7275D /* Configuration */,
+				40D4D5542DC321F500A7275D /* Theme */,
+				40D4D55A2DC3251F00A7275D /* Model */,
+				40D4D5522DC317A300A7275D /* View */,
+				40D4D5532DC317AD00A7275D /* ViewModel */,
+				407498612DC619CD002FA444 /* CalendarDemoView.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		40D4D5522DC317A300A7275D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40D4D55F2DC3572E00A7275D /* DateView.swift */,
+				40D4D55D2DC3279800A7275D /* WeekDaysView.swift */,
+				402B43A22D7B1EFA00463279 /* CalendarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40D4D5532DC317AD00A7275D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				402B43A42D7B1F0500463279 /* CalendarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40D4D5542DC321F500A7275D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				40D4D5552DC3220A00A7275D /* CalendarTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		40D4D5572DC3229300A7275D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				40D4D5582DC322A600A7275D /* CalendarConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		40D4D55A2DC3251F00A7275D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40D4D55B2DC3256A00A7275D /* YearMonth.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F416691C2D7AEF2200D5A6C3 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				F41669282D7AEF2200D5A6C3 /* CalendarViewApp.swift */,
-				F416692A2D7AEF2200D5A6C3 /* ContentView.swift */,
 				F416692C2D7AEF2500D5A6C3 /* Assets.xcassets */,
 				F416692E2D7AEF2500D5A6C3 /* CalendarView.entitlements */,
 				F416692F2D7AEF2500D5A6C3 /* Preview Content */,
+				40D4D5512DC3179300A7275D /* CalendarView */,
 			);
 			path = CalendarView;
 			sourceTree = "<group>";
@@ -97,7 +166,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					F41669242D7AEF2200D5A6C3 = {
 						CreatedOnToolsVersion = 15.4;
@@ -139,8 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F416692B2D7AEF2200D5A6C3 /* ContentView.swift in Sources */,
 				F41669292D7AEF2200D5A6C3 /* CalendarViewApp.swift in Sources */,
+				40D4D55E2DC3279800A7275D /* WeekDaysView.swift in Sources */,
+				40D4D5592DC322A600A7275D /* CalendarConfiguration.swift in Sources */,
+				402B43A32D7B1EFA00463279 /* CalendarView.swift in Sources */,
+				40D4D55C2DC3256A00A7275D /* YearMonth.swift in Sources */,
+				402B43A52D7B1F0500463279 /* CalendarViewModel.swift in Sources */,
+				40D4D5562DC3220A00A7275D /* CalendarTheme.swift in Sources */,
+				40D4D5602DC3572E00A7275D /* DateView.swift in Sources */,
+				407498622DC619CD002FA444 /* CalendarDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +257,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -242,6 +319,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -269,7 +347,9 @@
 				CODE_SIGN_ENTITLEMENTS = CalendarView/CalendarView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CalendarView/Preview Content\"";
+				DEVELOPMENT_TEAM = Z24RAXMBWH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -282,7 +362,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -305,7 +385,9 @@
 				CODE_SIGN_ENTITLEMENTS = CalendarView/CalendarView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CalendarView/Preview Content\"";
+				DEVELOPMENT_TEAM = Z24RAXMBWH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -318,7 +400,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
